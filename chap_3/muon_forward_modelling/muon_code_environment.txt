@@ -1,0 +1,6 @@
+
+# muon
+jax
+simpeg
+pandas
+numba
