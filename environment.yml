@@ -1,0 +1,20 @@
+name: rbf-levelset
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.13
+  - simpeg=0.25.0
+  - discretize=0.12.0
+  - pymatsolver=0.4.0
+  - pydiso=0.2.0
+  - jax=0.7.2
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas
+  - numba
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
