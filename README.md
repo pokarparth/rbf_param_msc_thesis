@@ -106,4 +106,4 @@ MIT
 
 ## Acknowledgements
 
-Supervised by Lindsey Heagy. Developed within the UBC Geophysical Inversion Facility and built on SimPEG, discretize, NumPy, SciPy, and Jupyter. The muon forward operator was provided by Ideon Technologies.
+Supervised by Lindsey Heagy. Developed within the UBC Geophysical Inversion Facility and built on SimPEG. The muon forward operator was provided by Ideon Technologies.
