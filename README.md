@@ -45,8 +45,7 @@ rbf_param_msc_thesis/
         helisam/             Example 3: HeliSAM TDEM
   environment.yml
 ```
-
-The mapping is a subclass of SimPEG's `IdentityMap`. `ParametricRBFMapping` can be used by copy-pasting `__init.py__` and `_parametric.py` from `mappings` folder into SimPEG's maps folder.
+The `ParametricRBFMapping` mapping is a subclass of SimPEG's `IdentityMap`. 
 
 ## Installation
 
@@ -55,14 +54,8 @@ conda env create -f environment.yml
 conda activate rbf-levelset
 pip install -e .
 ```
+Copy-paste `__init.py__` and `_parametric.py` from `mappings` folder into SimPEG's maps folder.
 
-The 3D examples were run with the Pardiso direct solver through `pymatsolver`, which requires MKL.
-
-Version used for the results in the thesis:
-
-| package | version |
-|---|---|
-| SimPEG | 0.25.0 |
 
 ## Examples
 
